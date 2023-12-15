@@ -1,4 +1,4 @@
-<h3 align="center" style="color: #0594dc">BibleDB Project</h3>
+<h3 align="center">BibleDB Project</h3>
 
 ---
 
@@ -14,12 +14,15 @@ You must install NodeJS to debug, test, and run the .js Javascript files. You ca
 https://nodejs.org/en
 2. Install VSCode:
 https://code.visualstudio.com/download
-3. Open VSCode and create a new terminal and install node modules locally to your projaect from the terminal with this command:
+3. Install SQLite3:
+https://www.sqlite.org/download.html
+4. Open VSCode and create a new terminal and install SQLite3 modules and node modules locally to your projaect from the terminal with this command:
 ```
 npm install node
+npm install SQLite3
 ```
 5. Learning Curve - not too bad.
 <br>
 <h6 align="center">Good luck with your efforts!</h6>
 <br>
-<h6 align="center" style="color: #103f57" title="God's Word Is Not For Sale">BibleDB Project Copyright © Free - Inspired by God</h3>
+<h6 align="center" title="God's Word Is Not For Sale">BibleDB Project Copyright © Free - Inspired by God</h3>
