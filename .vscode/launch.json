@@ -1,0 +1,53 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Node Transfer Fix Colon in Json Launch",
+            "program": "${workspaceFolder}/JS/Transfer/Transfer-Fix-Colon-in-min-Json.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Node Transfer SQL to Javascript Launch",
+            "program": "${workspaceFolder}/JS/Transfer/Transfer-SQL-to-Javascript.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Node Transfer SQL to Text Launch",
+            "program": "${workspaceFolder}/JS/Transfer/Transfer-SQL-to-Text.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Node Transfer Text Bibles to SQL Launch",
+            "program": "${workspaceFolder}/JS/Transfer/Transfer-Text-Bibles-to-SQL.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Node ZTransfer Finish Launch",
+            "program": "${workspaceFolder}/JS/Transfer/ZTransfer-Finish.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+        },
+    ]
+}

@@ -1,0 +1,1 @@
+SELECT VerseText FROM BSBVerses; UPDATE BSBVerses Set VerseText =  Replace(VerseText,' "', ' "');

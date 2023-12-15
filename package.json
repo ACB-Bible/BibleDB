@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "elasticlunr": "^0.9.5",
+    "natural": "^6.8.0",
+    "node": "^21.1.0",
+    "sqlite3": "^5.1.6"
+  }
+}

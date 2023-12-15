@@ -1,0 +1,1 @@
+SELECT * FROM verseQUERY WHERE verseQUERY MATCH 'God said' ORDER BY Rank LIMIT 10;

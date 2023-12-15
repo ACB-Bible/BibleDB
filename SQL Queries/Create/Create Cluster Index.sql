@@ -1,0 +1,1 @@
+CREATE INDEX ASVIndex ON ASVVerses (VerseID ASC, BookID ASC, ChapterNumber ASC, VerseNumber ASC, JesusQuote ASC);
