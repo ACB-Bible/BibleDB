@@ -21,3 +21,5 @@ npm install node
 5. Learning Curve - not too bad.
 <br>
 <h6 align="center">Good luck with your efforts!</h6>
+<br>
+<h6 align="center" style="color: #103f57" title="God's Word Is Not For Sale">BibleDB Project Copyright © Free - Inspired by God</h3>
