@@ -7,7 +7,7 @@ var workVersions = [];
 //Do not change versionidx in ZTransfer-Finish.js
 var versionidx = 0;
 
-var workVersionsPath = `./DATA/1-Misc/Unprocessed/`;
+var workVersionsPath = `./DATA/1-Misc/`;
 var vrs = fs.readFileSync(`${workVersionsPath}WorkVersions.json`, 'utf8');
 workVersions = JSON.parse(vrs);
 var vrabr = `${workVersions[versionidx].ar}`;
@@ -17,7 +17,7 @@ var path = `./NCB Production Data/`
 
 function deleteFiles() {
 
-    let deletePath = `${path}${vrabr}/${vrabr} ${versionName} - Read-Me.md`;
+    let deletePath = `${path}${vrabr}/${vrabr} ${versionName}.md`;
     if (fs.existsSync(`${deletePath}`)) {
         fs.rmSync(`${deletePath}`, { recursive: true });
     };

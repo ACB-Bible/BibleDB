@@ -3,7 +3,7 @@ const fs = require('fs');
 var workVersions = [];
 
 var versionidx = 0;
-var path = `./DATA/1-Misc/Unprocessed/`;
+var path = `./DATA/1-Misc/`;
 var vrs = fs.readFileSync(`${path}WorkVersions.json`, 'utf8');
 workVersions = JSON.parse(vrs);
 var vrabr = workVersions[versionidx].ar;
@@ -50,7 +50,7 @@ async function writeFile() {
 async function makeFile() {
 
     let aVersion = aFile.slice(0, -7);
-    textPath = `${path}${vrabr}/${vrabr} ${aVersion} - Read-Me.md`;
+    textPath = `${path}${vrabr}/${vrabr} ${aVersion}.md`;
     aFile = `#### ${aFile}----\n##### The ${vrabr} folder contains the complete Verses of the "${aVersion}" bible in these various data formats:\n* SQLite3 database\n* JavaScript\n* JSON\n* JSONC\n* Plain-Text`;
 
     /*

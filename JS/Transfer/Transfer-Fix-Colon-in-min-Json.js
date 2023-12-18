@@ -58,7 +58,7 @@ const alph = [
 ];
 
 var versionidx = 13;
-var path = `./DATA/1-Misc/Unprocessed/`;
+var path = `./DATA/1-Misc/`;
 var vrs = fs.readFileSync(`${path}WorkVersions.json`, 'utf8');
 workVersions = JSON.parse(vrs);
 var vrabr = `${workVersions[versionidx].ar}`;

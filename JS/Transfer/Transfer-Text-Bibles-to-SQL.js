@@ -8,7 +8,7 @@ var books = [{"c":50,"id":1,"t":"Genesis"},{"c":40,"id":2,"t":"Exodus"},{"c":27,
 
 const fs = require('fs');
 var workVersions = [];
-var versionidx = 8;
+var versionidx = 5;
 
 var bid = '';
 var cn = '';
@@ -17,7 +17,7 @@ var text = '';
 var title = '';
 var chapterID = 0;
 
-var path = `./DATA/1-Misc/Unprocessed/`;
+var path = `./DATA/1-Misc/`;
 var vrs = fs.readFileSync(`${path}WorkVersions.json`, 'utf8');
 workVersions = JSON.parse(vrs);
 var versionID = `${workVersions[versionidx].id}`;
