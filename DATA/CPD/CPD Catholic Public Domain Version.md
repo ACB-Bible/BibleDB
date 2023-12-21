@@ -66,6 +66,9 @@
 | ---: | --- | ---: |
 | 47| Matthew| 28|
 | 48| Mark| 16|
+| 49| Luke| 24|
+| 50| John| 21|
+| 51| Acts| 28|
 | 52| Romans| 16|
 | 53| 1 Corinthians| 16|
 | 54| 2 Corinthians| 13|

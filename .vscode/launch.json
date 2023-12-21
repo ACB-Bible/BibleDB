@@ -7,47 +7,37 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Node Transfer Fix Colon in Json Launch",
-            "program": "${workspaceFolder}/JS/Transfer/Transfer-Fix-Colon-in-min-Json.js",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Node Transfer SQL to Javascript Launch",
+            "name": "Node Transfer-SQL-to-Javascript.js Launch",
             "program": "${workspaceFolder}/JS/Transfer/Transfer-SQL-to-Javascript.js",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
+            "skipFiles": [ "<node_internals>/**" ],
         },
         {
             "type": "node",
             "request": "launch",
-            "name": "Node Transfer SQL to Text Launch",
+            "name": "Node Transfer-SQL-to-Text.js Launch",
             "program": "${workspaceFolder}/JS/Transfer/Transfer-SQL-to-Text.js",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
+            "skipFiles": [ "<node_internals>/**" ],
         },
         {
             "type": "node",
             "request": "launch",
-            "name": "Node Transfer Text Bibles to SQL Launch",
-            "program": "${workspaceFolder}/JS/Transfer/Transfer-Text-Bibles-to-SQL.js",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
+            "name": "Node Transfer-Text-to-SQL.js Launch",
+            "program": "${workspaceFolder}/JS/Transfer/Transfer-Text-to-SQL.js",
+            "skipFiles": [ "<node_internals>/**" ],
         },
         {
             "type": "node",
             "request": "launch",
-            "name": "Node ZTransfer Finish Launch",
+            "name": "Node ZTransfer-Finish.js Launch",
             "program": "${workspaceFolder}/JS/Transfer/ZTransfer-Finish.js",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
+            "skipFiles": [ "<node_internals>/**" ],
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Node ZTransfer-Fix-min-JsonColon.js Launch",
+            "program": "${workspaceFolder}/JS/Transfer/ZTransfer-Fix-min-JsonColon.js",
+            "skipFiles": [ "<node_internals>/**" ],
         },
     ]
 }
