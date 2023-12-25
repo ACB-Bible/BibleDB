@@ -444,10 +444,28 @@ const weyBooks = [
 ];
 // #endregion const weyBooks; Tyndale Bible(TYN), Weymouth New Testament(WEY)
 
+function setBook(abr) {
+    let book;
+    if (abr === 'JPS') { return };
+    switch (abr) {
+        case "CPD":
+            book = cpdBooks;
+            break;
+        case "JPS":
+            book = jpsBooks;
+            break;
+        case "TYN":
+            book = tynBooks;
+            break;
+        case "WEY":
+            book = weyBooks;
+            break;
+        default:
+            book = allBooks;
+    };
+    return book;
+};
+
 module.exports = {
-    allBooks: allBooks,
-    cpdBooks: cpdBooks,
-    jpsBooks: jpsBooks,
-    tynBooks: tynBooks,
-    weyBooks: weyBooks
-  };
+    setBook: setBook
+};

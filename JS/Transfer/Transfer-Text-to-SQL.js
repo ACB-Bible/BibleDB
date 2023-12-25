@@ -1,10 +1,9 @@
 //** Transfer-Text-to-SQL.js */
 // #region Top level Variables: bid = BookID, cn = ChapterNumber, vn = VerseNumber, text = VerseText, chapterID = ChapterID, versionID = VersionID, vrabr = Book abreviation, path = Path to plain text file, dbPath = Path to SQLite3 database
-var bookList = require('../../DATA/1-Misc/WorkBooks.js')
+var bookList = require('../../DATA/1-Misc/WorkBooks.js');
 const fs = require('fs');
 var workVersions = [];
 var versionidx = 18;
-var books = [];
 
 var bid = '';
 var cn = '';
@@ -41,7 +40,7 @@ async function loadSQL() {
     db.run(sql, values);
 };
 
-function setBookID() {
+function setBookID(books) {
 
     if (title === 'SongofSolomon') { title = 'Song of Solomon' };
     if (title === 'Psalm') { title = 'Psalms' };
@@ -77,7 +76,7 @@ function setNum(str) {
     };
 };
 
-async function verses(files) {
+async function verses(files, books) {
 
     let aLine = '';
     let i = 0;
@@ -91,7 +90,7 @@ async function verses(files) {
             aLine = line.replace(/\t/g, ' ').trim();
             i = setNum(aLine);
             text = aLine.slice(i, aLine.length).trim();
-            setBookID();
+            setBookID(books);
             loadSQL();
         };
         x++;
@@ -102,25 +101,9 @@ async function verses(files) {
 
 async function startUp() {
 
-    if (vrabr === 'JPS') { return };
-    switch (vrabr) {
-        case "CPD":
-            books = bookList.cpdBooks;
-            break;
-        case "JPS":
-            books = bookList.jpsBooks;
-            break;
-        case "TYN":
-            books = bookList.tynBooks;
-            break;
-        case "WEY":
-            books = bookList.weyBooks;
-            break;
-        default:
-            books = bookList.allBooks;
-    };
-
-    let res = verses(textPath);
+    let books = bookList.setBook(vrabr);
+    let res = false;
+    if (books) { res = verses(textPath, books) };
     if (res) { console.log(`Finished: ${vrabr}`); };
 };
 

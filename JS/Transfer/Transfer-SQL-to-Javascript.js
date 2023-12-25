@@ -1,8 +1,9 @@
 //** Transfer-SQL-to-Javascript */
 const fs = require('fs');
+var bookList = require('../../DATA/1-Misc/WorkBooks.js');
 var workVersions = [];
 
-var versionidx = 0;
+var versionidx = 18;
 var path = `./DATA/1-Misc/`;
 var vrs = fs.readFileSync(`${path}WorkVersions.json`, 'utf8');
 workVersions = JSON.parse(vrs);
@@ -10,8 +11,8 @@ var vrabr = `${workVersions[versionidx].ar}`;
 var vTitle = workVersions[versionidx].vn;
 var aComment = `//${vTitle}:`;
 
-var bk = 'Genesis';
-var cn = 1;
+//var bk = 'Genesis';
+//var cn = 1;
 path = `./DATA/`
 var textPath = `${path}${vrabr}/${vrabr}Verses.js`;
 var dbPath = `${path}BibleDB.db`;
@@ -30,7 +31,8 @@ async function writeFile() {
     });
 };
 
-function fixFile(book, chapterNumber, verseNumber, text) {
+function fixFile(bk, cn, book, chapterNumber, verseNumber, text) {
+
 
     text = text.replace(/"/g, "\\\"");
     if (bk !== book) {
@@ -39,19 +41,28 @@ function fixFile(book, chapterNumber, verseNumber, text) {
         if (cn !== chapterNumber) { aFile += `      },\n"${chapterNumber}": {\n` };
     };
     aFile += `         "${verseNumber}": "${text}",\n`;
-    bk = book;
-    cn = chapterNumber;
+    //bk = book;
+    //cn = chapterNumber;
 };
 
-async function sqlTransfer() {
+async function sqlTransfer(books) {
 
-    let sql = `SELECT AJsonBooks.t, ${vrabr}Verses.ChapterNumber, ${vrabr}Verses.VerseNumber, ${vrabr}Verses.VerseText FROM ${vrabr}Verses JOIN AJsonBooks ON ${vrabr}Verses.BookID = AJsonBooks.id`;
+    let i = 0;
+    let bid = 1;
+    let bk = books[0].t;
+    let cn = 1;
+
+    let sql = `SELECT ${vrabr}Verses.BookID, ${vrabr}Verses.ChapterNumber, ${vrabr}Verses.VerseNumber, ${vrabr}Verses.VerseText FROM ${vrabr}Verses ORDER BY ${vrabr}Verses.BookID`;
 
     return new Promise((resolve, reject) => {
         db.serialize(() => {
             db.each(sql, (err, row) => {
-                if (err) { console.error(err.message); reject(false) }
-                fixFile(row.t, row.ChapterNumber, row.VerseNumber, row.VerseText)
+                if (err) { console.error(err.message); reject(false) };
+                fixFile(bk, cn, books[bid - 1].t, row.ChapterNumber, row.VerseNumber, row.VerseText);
+                bk = books[bid - 1].t;
+                bid = Number(row.BookID);
+                cn = Number(row.ChapterNumber);
+                console.log(books[bid - 1].t);
             });
             db.close((err) => {
                 if (err) { console.error(err.message); reject(false); }
@@ -59,14 +70,14 @@ async function sqlTransfer() {
             });
         });
     });
-
 };
 
 async function startUp() {
 
     let res = false;
-    aFile = `${aComment}\n const json = {\n   "${bk}": {\n   "${cn}": {\n`;
-    res = await sqlTransfer();
+    let books = bookList.setBook(vrabr);
+    aFile = `${aComment}\n const json = {\n   "${books[0].t}": {\n   "1": {\n`;
+    res = await sqlTransfer(books);
     if (res) { aFile += `}}};\n`; res = await writeFile(); };
     if (res) { console.log('Finished!') };
 };
