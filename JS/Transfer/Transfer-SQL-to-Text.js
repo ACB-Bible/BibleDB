@@ -1,5 +1,6 @@
 //** Transfer-SQL-to-Text.js */
 const fs = require('fs');
+var bookList = require('../../DATA/1-Misc/WorkBooks.js');
 var workVersions = [];
 
 var versionidx = 0;
@@ -8,7 +9,7 @@ var vrs = fs.readFileSync(`${path}WorkVersions.json`, 'utf8');
 workVersions = JSON.parse(vrs);
 var vrabr = workVersions[versionidx].ar;
 var aFile = `${workVersions[versionidx].vn}:\n`;
-
+var books = bookList.setBook(vrabr);
 var path = `./DATA/`
 var textPath = `${path}${vrabr}/${vrabr}Verses.txt`;
 var dbPath = `${path}BibleDB.db`;
@@ -38,26 +39,20 @@ async function sqlTransfer() {
     });
 }
 
-async function writeFile() {
+async function writeFile(apath) {
 
     return new Promise((resolve, reject) => {
-        fs.writeFile(textPath, aFile, err => {
+        fs.writeFile(apath, aFile, err => {
             if (err) { console.error(err.message); reject(false); } else { resolve(true); };
         });
     });
 };
 
-async function makeFile() {
+async function mdFile(apath) {
 
-    let aVersion = aFile.slice(0, -7);
-    textPath = `${path}${vrabr}/${vrabr} ${aVersion}.md`;
-    aFile = `#### ${aFile}----\n##### The ${vrabr} folder contains the complete Verses of the "${aVersion}" bible in these various data formats:\n* SQLite3 database\n* JavaScript\n* JSON\n* JSONC\n* Plain-Text`;
+    aFile = `#### ${apath}(${vrabr}):\n---\n ##### The ${vrabr} folder contains the complete Verses of the "${apath}" bible in these various data formats:\n* JavaScript\n* JSON\n* JSONC\n* Plain-Text\n* SQLite3 database\n---`;
 
-    /*
-    if (vrabr === 'CPD' || vrabr === 'TYN') {
-        aFile += `\n###### This folder also contains a Json file listing the books, including the chapter count for each book of the "${aVersion}", because it contains different books than other versions of the bible.`
-    }*/
-
+    console.log('test')
     Promise.resolve(true);
 ;
 }
@@ -65,11 +60,15 @@ async function startUp() {
 
     let res = false;
     res = await sqlTransfer();
-    res = true
-    if (res) { makeFile(); };
-    if (res) { res = await writeFile(); };
-    if (res) { console.log('Finished!') };
 
+    textPath = `${path}${vrabr}/${vrabr}verses.txt`;
+    if (res) { res = await writeFile(textPath); };
+    let text = workVersions[versionidx].vn.slice(0, -5);
+    textPath = `${path}${vrabr}/${vrabr} ${text}`;
+    if (res) { mdFile(text); };
+    textPath = `${path}${vrabr}/${vrabr} ${text}.md`;
+    if (res) { res = await writeFile(textPath); };
+    if (res) { console.log('Finished!') };
 };
 
 startUp();
