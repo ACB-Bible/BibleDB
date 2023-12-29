@@ -53,6 +53,18 @@ npm install SQLite3
 ```
 5. Learning Curve - not too bad.
 <br>
+
+---
+There are two other projects that use the datafiles for an online bible. Both of these projects contain open source code that you can use for free. Each project has the complete source code that can be altered, or used as is to build your own online bible.
+
+The links to the example projects.
+
+1. <a href="https://github.com/ACB-Bible/AmericanComputerizedBible">The American Computerized Bible</a>
+
+2. <a href="https://github.com/ACB-Bible/NCB">The New Christian Bible</a>
+
+---
+
 <h6 align="center">Good luck with your efforts!</h6>
-<br>
+
 <h6 align="center" title="God's Word Is Not For Sale">BibleDB Project Copyright © Free - Inspired by God</h3>
