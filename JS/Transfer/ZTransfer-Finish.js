@@ -1,5 +1,5 @@
 //** ZTransfer-Finish.js */
-//** Delete all files from the NCB Production DATA folder except for verses.json */
+//** This App deletes all files from the NCB Production DATA folder except for the verses.json files which are used by the American Computerized Bible App and the New Christian Bible App. */
 const fs = require('fs');
 // #region workVersions
 var workVersions = [];

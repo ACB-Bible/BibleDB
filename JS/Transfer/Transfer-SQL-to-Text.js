@@ -1,4 +1,5 @@
 //** Transfer-SQL-to-Text.js */
+//** This App reads the SQLite3 BibleDB.db database Verses table, iterates through each verse, and formats them into a machine readable text file, and writes it to disc with the same structure as the AKJVerses.txt file for each BibleDB Project version. */
 const fs = require('fs');
 var bookList = require('../../DATA/1-Misc/WorkBooks.js');
 var workVersions = [];

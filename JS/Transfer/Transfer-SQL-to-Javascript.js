@@ -1,4 +1,5 @@
 //** Transfer-SQL-to-Javascript */
+//** This App reads the SQLite3 BibleDB.db database Verses table, formats the data to a Javascript array object, assembles it into a Javascript file, and writes it to disc with the same structure as the AKJVerses.js file for each BibleDB Project version. */
 const fs = require('fs');
 var bookList = require('../../DATA/1-Misc/WorkBooks.js');
 var workVersions = [];

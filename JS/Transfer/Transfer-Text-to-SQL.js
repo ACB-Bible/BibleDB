@@ -1,4 +1,5 @@
 //** Transfer-Text-to-SQL.js */
+//** This App reads the machine readable text files that are stored in the same structure as the AKJVerses.txt file, it iterates each verse and inserts them into the SQLite3 BibleDB.db database Verses table for each BibleDB Project version. */
 // #region Top level Variables: bid = BookID, cn = ChapterNumber, vn = VerseNumber, text = VerseText, chapterID = ChapterID, versionID = VersionID, vrabr = Book abreviation, path = Path to plain text file, dbPath = Path to SQLite3 database
 var bookList = require('../../DATA/1-Misc/WorkBooks.js');
 const fs = require('fs');

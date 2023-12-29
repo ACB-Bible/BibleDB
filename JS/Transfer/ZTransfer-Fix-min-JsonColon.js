@@ -1,4 +1,5 @@
 //** Transfer-Fix-Colon-in-min-Json.js */
+//* This app repairs the improper punctuation in a Json a file after it has been minimized! */
 const fs = require('fs');
 var workVersions = [];
 
@@ -57,7 +58,7 @@ const alph = [
     { "id": "&" },
 ];
 
-var versionidx = 13;
+var versionidx = 18;
 var path = `./DATA/1-Misc/`;
 var vrs = fs.readFileSync(`${path}WorkVersions.json`, 'utf8');
 workVersions = JSON.parse(vrs);
