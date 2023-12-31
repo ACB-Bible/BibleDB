@@ -30,7 +30,7 @@ The main database file in the BibleDB Project is the BibleDB.db file which is an
 |WEY| Weymouth New Testament| 27| 7957|
 |YLT| Young's Literal Translation| 66| 31102|
 
- * The JPS Jewish Publication Society's Tanakh 1917 Old Testament version of the bile is not a Christian bible, but it is included as a reference for scholars and theogians to study. It contains a public domain version of the Jewish scriptures that does not include the new testament. It only has the JPSVerses.txt data file and is not available in the other data formats. It uses a different verse structure than the Christian bible, and will require different file handling techniques. There is no accurate verse count for this version yet. It is also not included in the two example code projects below.
+ * The JPS Jewish Publication Society's Tanakh 1917 Old Testament version of the bile is not a Christian bible, but it is included as a reference for scholars and theogians to study. It contains a public domain version of the Jewish scriptures that does not include the new testament. The JPSVerses.txt machine readable text file is the only available file format at this time. The other data formats for the JPS version are not currently available. The JPS version uses a different verse structure than the Christian bible, and will require different file handling techniques. There is no accurate verse count for the JPS version yet. It is also not included in the two example code projects below.
 
 ---
 <br>

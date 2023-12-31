@@ -1,6 +1,7 @@
 #### Smith's Literal Translation(SLT):
 ----
 ##### The SLT folder contains the complete Verses of the "Smith's Literal Translation" bible in these various data formats:
+* CSV
 * JavaScript
 * JSON
 * JSONC

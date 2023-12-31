@@ -1,6 +1,7 @@
 #### Twenty-First Century Version(TWF):
 ----
 ##### The TWF folder contains the complete Verses of the "Twenty-First Century Version" of the bible in these various data formats:
+* CSV
 * JavaScript
 * JSON
 * JSONC

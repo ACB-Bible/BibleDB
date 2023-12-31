@@ -1,6 +1,7 @@
 #### Weymouth New Testament(WEY):
 ----
 ##### The WEY folder contains the complete Verses of the "Weymouth New Testament" bible in these various data formats:
+* CSV
 * JavaScript
 * JSON
 * JSONC

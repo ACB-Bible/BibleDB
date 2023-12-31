@@ -1,11 +1,7 @@
 #### Jewish Publication Society's Tanakh 1917 OT(JPS):
 ----
 ##### The JPS folder contains the complete Verses of the "Jewish Publication Society's Tanakh" bible in these various data formats:
-* JavaScript
-* JSON
-* JSONC
 * Plain-Text
-* SQLite3 database
 
 ---
 

@@ -1,6 +1,7 @@
 #### Catholic Public Domain Version(CPD):
 ----
 ###### The CPD folder contains the complete verses of the "Catholic Public Domain Version" bible in various data formats, including:
+* CSV
 * JavaScript
 * JSON
 * JSONC

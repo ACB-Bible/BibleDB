@@ -1,6 +1,7 @@
 #### Tyndale Bible(TYN):
 ----
 ##### The TYN folder contains the complete Verses of the "Tyndale Bible(TYN)" bible in these various data formats:
+* CSV
 * JavaScript
 * JSON
 * JSONC

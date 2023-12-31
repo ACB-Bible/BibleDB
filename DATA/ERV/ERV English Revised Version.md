@@ -1,6 +1,7 @@
 #### English Revised Version(ERV):
 ----
 ##### The ERV folder contains the complete Verses of the "English Revised Version" bible in these various data formats:
+* CSV
 * JavaScript
 * JSON
 * JSONC

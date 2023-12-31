@@ -1,6 +1,7 @@
 #### World English Bible(WEB):
 ----
 ##### The WEB folder contains the complete Verses of the "World English Bible" bible in these various data formats:
+* CSV
 * JavaScript
 * JSON
 * JSONC
