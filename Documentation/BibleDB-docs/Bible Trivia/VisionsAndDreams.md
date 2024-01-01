@@ -1,1 +1,0 @@
-<h3 align="center">Visions and Dreams and Other Things I've Seen</h3>

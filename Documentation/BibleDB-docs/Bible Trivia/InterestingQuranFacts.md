@@ -2,18 +2,27 @@
 
 These are some curious and interesting facts about the Muslim Quran, and how it compares to the bible.
 
+[1. Surahs in the Quran](#sitq)
+[2. Juz Qura](#jq)
+
 ---
 * There a total of 6,236 verses in the Quran excluding the Bismillah, and 6348 including the Bismillah
 
 * The Quran is divided into 114 Surahs by dictated to the Prophet Muhammad from Allah, Surahs are similar to chapters, but they're not exactly the same. Each Surah has a unique name, which is usually derived from a word or phrase in the Surah. Surahs are not arranged in chronological order, instead they are ordered by length, with the longest Surahs coming first. 
 
 * The Juz is another version of the Quran that arranged historically into thirty chapters, and it was edited by people to make it easy to read the entire Quran in 30 days. If you read 1 Juz per day the entire Quran can be read in one month.
+---
+
+The Quran is missing a savior, we need a savior to save us from or sins. None of us are worthy of God or the Kingdom of Heaven. 
+
+If you would like to learn more about God's only begotten son, the savior that God sent to save the world, the click on this link, and read the New Testament.
+[The American Computerized Bible](https://acbible.com)
 
 ---
 <br>
 
-##### Quran Surahs or Chapters:
-* List of the 114 names of the Surahs in the Quran:
+##### Surahs in the Quran:{#sitq}
+* List of the 114 Surahs in the Quran:
 
 |Number|Name|Meaning|Verses|
 | ---: | :--- | :--- | ---:|
@@ -33,7 +42,7 @@ These are some curious and interesting facts about the Muslim Quran, and how it 
 |  14| Ibrahim| The Prophet Ibrahim or Abraham| 52|
 |  15| Al-Hijr| The Rocky Tract| 99|
 |  16| An-Nahl| The Bees| 128|
-|  17| Al-Isra| Also Called Al-Isra’: Children of Israel's Night Journey| 111|
+|  17| Al-Isra| Also Called Al-Isra’ or Bani Isra'il: Children of Israel's Night Journey| 111|
 |  18| Al-Kahf| The Cave| 110|
 |  19| Maryam| Maryam or Mary| 98|
 |  20| TaHa| Unknown - Name of the Prophet TaHa, Possibly the Name of the Prophet Muhammad| 135|
@@ -131,3 +140,49 @@ These are some curious and interesting facts about the Muslim Quran, and how it 
 | 112| Al-Ikhlas| Sincerity| 4|
 | 113| Al-Falaq| The Daybreak, Dawn| 5|
 | 114| An-Nas| Mankind| 6|
+
+---
+
+<br>
+
+##### Juz Quran{#jq}
+* List of the 30 Juz
+
+|Juz Number| Juz Name| Beginning Surah| Verse| Ending Surah| Verse|
+| --- | --- | --- | ---: | --- | ---: |
+|  1| Alif Lam Meem| 1: Al-Fatiha| 1| 2: Al-Baqarah| 141|
+|  2| Sayaqool| 2: Al-Baqarah| 142| 2: Al-Baqarah| 252|
+|  3| Tilkal Rusul| 2: Al-Baqarah| 253| 3: Al-Imran| 92|
+|  4| Lan Tana Loo| 3: Al-Imran| 93|An-Nisa Verse| 23|
+|  5| Wal Mohsanat| 4: An-Nisa| 24| 4: An-Nisa| 147|
+|  6| La Yuhibbullah| 4: An-Nisa| 148| 5: Al-Ma'idah| 81|
+|  7| Wa Iza Samiu| 5: Al-Ma'idah| 82| 6: Al-An'am| 110|
+|  8| Wa Lau Annana| 6: Al-An'am| 111| 7: Al-A'raf| 87|
+|  9| Qalal Malao| 7: Al-A'raf| 88| 8: Al-Anfal| 40|
+| 10| Wa A'lamu| 8: Al-Anfal| 41| 9: At-Tauba| 92|
+| 11| Yatazeroon| 9: At-Tauba| 93| 11: Hud| 5|
+| 12| Wa Mamin Da'abat| 11: Hud| 6| 12: Yusuf| 52|	
+| 13| Wa Ma Ubrioo| 12: Yusuf| 53| 14: Ibrahim| 52|
+| 14| Rubama| 15: Al-Hijr| 1| 16: An-Nahl| 128|
+| 15| Subhanallazi| 17: Al-Isra| 1| 18: Al-Kahf| 74|
+| 16| Qal Alam| 18: Al-Kahf| 75| 20: Ta-Ha| 135|
+| 17| Aqtarabo| 21: Al-Anbiyaa| 1| 22: Al-Hajj| 78|
+| 18| Qadd Aflaha| 23: Al-Muminum| 1| 25: Al-Furqan| 20|
+| 19| Wa Qalallazina| 25: Al-Furqan| 21| 27: An-Naml| 55|
+| 20| A'man Khalaq| 27: An-Naml| 56| 29: Al-Ankabut| 45|
+| 21| Utlu Ma Oohi| 29: Al-Ankabut| 46| 33: Al-Azhab| 30|
+| 22| Wa Manyaqnut| 33: Al-Azhab| 31| 36: Ya-Sin| 27|
+| 23| Wa Mali| 36: Ya-Sin| 28| 39: Az-Zumar| 31|
+| 24| Faman Azlam| 39: Az-Zumar| 323| 41: Fussilat| 46|
+| 25| Elahe Yuruddo| 41. Fussilat| 47| 45. Al-Jasiyah| 37|
+| 26| Ha'a Meem| 46: Al-Ahqaf| 1| 51: Az-Dhariyat| 30|
+| 27| Qala Fama Khatbukum| 51: Az-Dhariyat| 31| 57: Al-Hadid| 29|
+| 28| Qadd Sami Allah| 58: Al-Mujadilah| 1| 66: At-Tahrim| 12|
+| 29| Tabarakallazi| 67: Al-Mulk| 1| 77: Al-Mursalat| 50|
+| 30| Amma Yatasa'aloon| 78: An-Naba| 1| 114: An-Nas| 6|
+
+<br>
+
+<h3 align="center">Good Luck With Your Efforts!</h3>
+
+[The American Computerized Bible](https://acbible.com)
