@@ -2,7 +2,7 @@
 
 --- 
 
-#### Verses about Jesus:
+#### The Gospels:
 
 These are the books in the "New Testament" that record the crucifixion of Jesus. These books are known as the Gospels, and they describe the events leading up to, during, and after his crucifixion, as well as his resurrection and ascension to heaven:
 
