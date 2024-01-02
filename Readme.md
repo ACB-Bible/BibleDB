@@ -2,8 +2,12 @@
 
 ---
 
-The main database file in the BibleDB Project is the BibleDB.db file which is an SQLite database file, and it contains all the bible versions in one file. All of the Bible versions in the BibleDB Project are in the public domain. These files are not copyrighted in any way, and they are free to use by anyone who wants to help spread God's Word.
+The "BibleDB" project is a database project that stores various Bible versions in various data formats. The "American Computerized Bible" Project is an online bible project that offers various versions of the Bible that uses data from the "BibleDB" Project. The "New Christian Bible" is a more complex online Bible project, with more features that uses the data from the "BibleDB" Project. All the data and source code for each of these projects is in the public domain and free of copyrights, therefore it's free for you to use in your own ministry or Bible project. If you use or alter any of this data or source code, please change the name of your project so people don't get confused.
 
+---
+1. [ACB Project](https://github.com/ACB-Bible/AmericanComputerizedBible)
+2. [NCB Project](https://github.com/ACB-Bible/NCB)
+3. [Project Documentation](https://github.com/ACB-Bible/BibleDB/tree/main/Documentation) - Documentation for all projects.
 ---
 
 ##### List of Bible Versions in the BibleDB Project

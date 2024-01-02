@@ -3,8 +3,8 @@
 ---
 There are curently three different related projects under development with source code and data that can be used to develop your own computerized Bible project.
 1. [ACB Project](https://github.com/ACB-Bible/AmericanComputerizedBible)
-2. [BibleDB Project](https://github.com/ACB-Bible/BibleDB)
-3. [NCB Project](https://github.com/ACB-Bible/NCB)
+2. [NCB Project](https://github.com/ACB-Bible/NCB)
+3. [Project Documentation](https://github.com/ACB-Bible/BibleDB/tree/main/Documentation) - Documentation for all projects.
 ---
 <br>
 
