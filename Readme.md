@@ -7,7 +7,7 @@ The "BibleDB" project is a database project that stores various Bible versions i
 ---
 1. [ACB Project](https://github.com/ACB-Bible/AmericanComputerizedBible)
 2. [NCB Project](https://github.com/ACB-Bible/NCB)
-3. [Project Documentation](https://github.com/ACB-Bible/BibleDB/tree/main/Documentation) - Documentation for all projects.
+3. [Project Documentation](https://github.com/ACB-Bible/DOC) - Documentation for all projects.
 ---
 
 ##### List of Bible Versions in the BibleDB Project
