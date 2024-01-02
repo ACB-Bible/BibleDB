@@ -121,7 +121,7 @@ These additional paragraphs are not included in the data files located in the CP
 
 ##### Json Content:
 
-##### 1. First Extra Paragraph from the Catholic Public Domain Version Book of Sirach:{#fep}
+##### 1. A Paragraph that's only in the Catholic Public Domain at the beginning of the Book of Sirach:{#fep}
 
 ```json
 "P": {
@@ -138,7 +138,7 @@ These additional paragraphs are not included in the data files located in the CP
 ```
 <br>
 
-##### 2. Second Extra paragraph that is only in the Catholic Book of Lamentations:{#sep}
+##### 2. A Paragraph that's only in the Catholic Public Domain at the beginning of the Book of Lamentations:{#sep}
 
 ```json
 "P": {

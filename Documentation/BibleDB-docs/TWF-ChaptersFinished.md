@@ -9,7 +9,7 @@ These are the Chapters and verses that have been edited to some degree.
 Genesis		Rough Draft
 Exodus		Rough Draft
 Leviticus	Rough Draft
-Numbers		2:5
+Numbers		2:17
 
 
 #### New Testament:
@@ -20,7 +20,12 @@ Revelation	6:1
 
 ---
 
+###### Fix Markdown Links
 
+1. All Quotes by Jesus
 
-Please rewrite this bible verse with proper modern English grammar.
+---
+
+Please rewrite this bible verse with proper modern English grammar. 
+
 

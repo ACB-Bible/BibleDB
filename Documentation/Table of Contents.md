@@ -1,28 +1,26 @@
 <h3 align="center">Table of Contents</h3>
 
 ---
-1. BibleDB Folder
-2. CodeSnippets Folder
-3. NCB Folder
-4. VSCode Folder
+There is curently three different related projects under development that can be used together.
+1. [BibleDB Project]()
+2. [ACB Project]()
+3. [NCB Project]()
 ---
 <br>
 
 #### 1. BibleDB Folder:
 * ***Bible Trivia Folder:*** - A folder that contains Interesting facts about the bible.
-    1. QuotesByJesus.md - A file that contains all the recorded quotes by Jesus contained in the "New Testament."
-    2. BibleVersesAboutJesus.md - A list of "New Testament" verses where Jesus is mentioned in the bible.
-    3. JesusBellsSong.md - A file that contains a little jingle about Jesus that is sung to the melody of Jingle Bells.
-    4. InterestingQuranFacts.md - A bunch of interesting facts about the Quran.
-    5. MyFavoriteVerses.md - A growing list of my favorite bible verses.
-    6. VisionsAndDreams.md - A file of the many wonderous things God has shown me through my dreams, visions, and personal contact with angels.
+    1. [BibleVersesAboutJesus.md](BibleDB-docs/Bible-Trivia/BibleVersesAboutJesus.md) - A file that contains all the recorded quotes by Jesus contained in the "New Testament."
+    2. [InterestingQuranFacts.md](BibleDB-docs/Bible-Trivia/InterestingQuranFacts.md) - A list of "New Testament" verses where Jesus is mentioned in the bible.
+    3. [JesusQuotes.md](BibleDB-docs/Bible-Trivia/JesusQuotes.md) - A bunch of interesting facts about the Quran.
+    4. [MyFavoriteVerses.md](BibleDB-docs/Bible-Trivia/MyFavoriteVerses.md) - A growing list of my favorite bible verses.
+    5. [VersesJesusQuoted.md](BibleDB-docs/Bible-Trivia/VersesJesusQuoted.md) - A file of the many wonderous things God has shown me through my dreams, visions, and personal contact with angels.
 
 <br>
 
-* BibleBookList.md - A plain text list of all books in most versions of the bible.
+* BibleBookLists.md - A plain text list of all books in most versions of the bible.
 * BibleJsonBookList.json - A Json format list of all books in most versions of the bible.
 * BibleVersionList.md - A plain text list of all the bible versions in the BibleDB Project.
-* CPD-CatholicBookList.md - A plain text list of all the books in the Catholic Public Domain version of the bible. This version of the bible contains books that are not in other versions of the bible.
 * TWF-ChaptersFinished.md - A list of all the books and chapters in the Twenty-First Century version of the bible that are in some stage of being actively translated, paraphrased, and edited.
 
 ---
@@ -35,13 +33,9 @@
 <br>
 * ***HTML Folder:*** - 
 <br>
-* ***Javascript Folder***
-    1. *lz-string Folder*
-        * lz-string-module.js - A Javascript file that contains the lz-string module for compressing and decompressing files.
-        * lz-stringForBrowser.md - A Javascript syntax example of how to use the lz-string-module to compress and decompress files in the browser.
-    2.  *ServiceWorker Folder*
-        * Cache.md - A file that lists the differences between all the browser cache storage types.
-    3. DeclareFunctioWithOptionalArguments.md - A Javascripot syntax example of how to declare a function with optional arguments with default values.
+* ***Javascript Folder***        
+    1. FunctioWithOptionalArguments.md
+    Javascript syntax example of how to declare a function with optional arguments and default argument values.
 
 ---
 
@@ -49,13 +43,14 @@
 
 #### 3. NCB Folder:
 
+* Cache.md - A file that lists the differences between all the browser cache storage types.
 * CloudflareCompression.md - How to setup and enable brotli and Gzip compression on Cloudflare.
 * EditQueryString.md - How to Edit the Querystring in the browser without causing the browser to reload the page.
 * FileIntegritySRIHash.md - How to create and use an Integrity SRI hash on Cloudflare.
 * Pako.md - How to use the pako.js file to Gzip compress and decompress a file with Javascript, Nodejs, and also in the browser.
-* BrowserStorageDifferences.md - The differences between browser cache storage types, and Javascript examples of how to use them.
-* ServiceWorkerFetch.md - Javascript syntax to intercept a fetch() request and hand it over to a serviceWorker to run in the background.
-* ShareBrowserPage.md - How to share a webpage from the browser, if the browser supports the navigator.share() function, it can be used to bring up a menu screen to pick an app to share a link.
+* XBrowserStorageDifferences.md - The differences between browser cache storage types, and Javascript examples of how to use them.
+* XServiceWorkerFetch.md - Javascript syntax to intercept a fetch() request and hand it over to a serviceWorker to run in the background.
+* XShareBrowserPage.md - How to share a webpage from the browser, if the browser supports the navigator.share() function, it can be used to bring up a menu screen to pick an app to share a link.
 ---
 
 <br>
@@ -67,7 +62,7 @@
     2. localhost.pfx - An SSL certificate generated by the terminal.
 <br>
 * VS-Profile 12-5-23.code-profile - The profile for the VSCode environment.
-* VSCode-SetupNodejsLocalHostAndLiveServer.md - A file with the directions to setup liveserver and Nodejs debugger environment.
+* SetupNodejsLocalHostAndLiveServer.md - A file with the directions to setup liveserver and Nodejs debugger environment in VSCode.
 
 ---
 

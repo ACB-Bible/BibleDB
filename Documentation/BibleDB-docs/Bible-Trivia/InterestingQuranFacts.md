@@ -1,21 +1,21 @@
-<h3 align="center">Interesting facts about the Quran</h3>
+<h3 align="center">Interesting Quran Facts</h3>
 
-These are some curious and interesting facts about the Muslim Quran, and how it compares to the bible.
+These are some curious and interesting facts about the Muslim Quran, and how it compares to the Bible.
 
 [1. Surahs in the Quran](#sitq)
 [2. Juz Qura](#jq)
 
 ---
-* There a total of 6,236 verses in the Quran excluding the Bismillah, and 6348 including the Bismillah
+* There a total of 6,236 verses in the Quran excluding the Bismillah, and 6348 including the Bismillah. The Basmala is the titular name of the Bismillah, which is an Arabic phrase that means "In the name of Allah, the Most Gracious, the Most Merciful," and it's traditionally used to begin every Muslim prayer. It's used by most Muslims before doing "good deeds," as well as before beginning most daily activities. The Basmala is also the first verse of the Quran and appears before every chapter except for the ninth.
 
 * The Quran is divided into 114 Surahs by dictated to the Prophet Muhammad from Allah, Surahs are similar to chapters, but they're not exactly the same. Each Surah has a unique name, which is usually derived from a word or phrase in the Surah. Surahs are not arranged in chronological order, instead they are ordered by length, with the longest Surahs coming first. 
 
 * The Juz is another version of the Quran that arranged historically into thirty chapters, and it was edited by people to make it easy to read the entire Quran in 30 days. If you read 1 Juz per day the entire Quran can be read in one month.
 ---
 
-The Quran is missing a savior, we need a savior to save us from or sins. None of us are worthy of God or the Kingdom of Heaven. 
+The Quran is missing a savior, we need a savior to save us from or sins. None of us are worthy of God or the Kingdom of Heaven because of our sin. 
 
-If you would like to learn more about God's only begotten son, the savior that God sent to save the world, the click on this link, and read the New Testament.
+If you would like to learn more about God's only begotten son, the savior of the world, the one that God sent to save the world, then click on this link, and read the New Testament.
 [The American Computerized Bible](https://acbible.com)
 
 ---

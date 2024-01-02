@@ -1,4 +1,8 @@
-<h3 align="center">A List of All Quotes by Jesus Mentioned in the Bible</h3>
+<h3 align="center">All Quotes by Jesus</h3>
+
+---
+
+This is a list of everything Jesus said that's quoted in the Bible New Testament.
 
 ---
 
