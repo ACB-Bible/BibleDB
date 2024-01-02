@@ -1,1 +1,1 @@
-DELETE FROM AJsonVerses;
+DELETE FROM TWFVerses;
