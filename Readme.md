@@ -48,9 +48,9 @@ The DATA folder contains all the Bible verse data in the BibleDB project.
 
         * Jsonc files are Json files that contain comments.
 
-        * [1. 24-New Testament Books](/DATA/ABV/Jsonc/24-NewTestamentBooks.jsonc)
+            1. [24-New Testament Books](/DATA/ABV/Jsonc/24-NewTestamentBooks.jsonc)
 
-            * A Jsonc file listing the 24 New Testament books in the Jewish Publication Society's Tanakh 1917 OT(JPS).
+                * A Jsonc file listing the 24 New Testament books in the Jewish Publication Society's Tanakh 1917 OT(JPS).
 
         * [27-New Testament Books](/DATA/ABV/Jsonc/27-NewTestamentBooks.jsonc)
 
