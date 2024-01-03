@@ -1,19 +1,20 @@
 <a id="top"></a>
-<h3 align="center">List of Books in the Bible in Various Formats</h3>
+<h3 align="center">List of Books in the BibleDB Project</h3>
 
 ---
 ##### Markdown Contents:
 ###### Sorted Biblically
-* [1. Markdown List of All Biblically Sorted Books](#mloabsb)
-* [2. Markdown List of Biblically Sorted Old Testament Books](#mlootb)
-* [3. Markdown List of Biblically Sorted New Testament Books](#mlontb)
+* [1. Markdown List of All Biblically Sorted Books](#markdown-list-of-all-biblically-sorted-books)
+* [2. Markdown List of Biblically Sorted Old Testament Books](#markdown-list-of-biblically-sorted-old-testament-books)
+* [3. Markdown List of Biblically Sorted New Testament Books](#markdown-list-of-biblically-sorted-new-testament-books)
 ###### Sorted Alphabetically
 <br>
 
 ##### Json Contents:
+1. [BibleDB to Json Legend](#bibledb-to-json-legend)
 ###### Sorted Biblically
-* [1. File Legend to Map the SQLite3 BibleDB.db ABibleBooks Table Field Names to Json File Key Name Value Pairs](#jfl)
-* [2. Json List of All Biblically Sorted Books](#jloabsb)
+
+1. [Json List of All Biblically Sorted Books](#jloabsb)
 * [3. Json List of Biblically Sorted New Testament Books](#jlobsntb)
 * [4. Json List of Biblically Sorted Old Testament Books](#jlobsotb)
 
@@ -25,15 +26,7 @@
 
 <br>
 
-|Field Name|Json Key|Value|
-| --- | --- | --- |
-|Chapters| c| Number of chapters in each book|
-|BookID| id| Primary key for each record|
-|Title| t| Title of each book|
-
-<br>
-
-##### 1. Markdown List of All Biblically Sorted Books:{#mloabsb}
+##### Markdown List of All Biblically Sorted Books
 
 |ID  |Book		     |Chapters|Verses|
 | :- | :--           | --:    |-----:|
@@ -106,8 +99,7 @@
 
 <br>
 
-##### 2. Markdown List of Old Testament Books:{#mlootb}
-
+##### Markdown List of Biblically Sorted Old Testament Books
 |ID  |Book		     |Chapters|Verses|
 | :- | :--           | --:    |-----:|
 |   1|Genesis	     |      50|  1533|
@@ -152,7 +144,7 @@
 
 <br>
 
-##### 3. Markdown List of New Testament Books: {#mlontb}
+##### Markdown List of Biblically Sorted New Testament Books
 |ID  |Book		     |Chapters|Verses|
 | :- | :--           | --:    | ----:|
 |  40|Matthew		 |      28|  1071|
@@ -187,9 +179,10 @@
 
 <br>
 
-##### Json Book Lists:{#jfl}
+##### Json Book Lists
 
-###### 1. File Legend to Map the SQLite3 BibleDB.db ABibleBooks Table Field Names to Json File Key Names:
+##### BibleDB to Json Legend
+This legend maps the SQLite3 BibleDB.db ABibleBooks Table Field Names to Json File Key: Value: pairs names for all the books in the Bible.
 
 |Field Name|Json Key|Value|
 | --- | --- | --- |
@@ -199,9 +192,8 @@
 
 ---
 
-<br>
 
-##### 2. Json List of All Biblically Sorted Books:{#jloabsb}
+###### Json List of All Biblically Sorted Books
 ```json
 [
     {
@@ -539,7 +531,7 @@
 
 <br>
 
-##### 3. Json List of Biblically Sorted New Testament Books:{#jlobsntb}
+###### 3. Json List of Biblically Sorted New Testament Books:{#jlobsntb}
 ```json
 [
     {
@@ -682,7 +674,7 @@
 
 <br>
 
-##### 4. Json List of Biblically Sorted Old Testament Books:{#jlobsotb}
+###### 4. Json List of Biblically Sorted Old Testament Books:{#jlobsotb}
 ```json
 [
     {
@@ -884,7 +876,7 @@
 ```
 <br>
 
-##### 5. Json List of All Alphabetically Sorted Books:{#asjbl}
+###### 5. Json List of All Alphabetically Sorted Books:{#asjbl}
 ```json
 [
     {
@@ -1215,6 +1207,36 @@
 ```json
 [
     {
+        "c": 28,
+        "id": 40,
+        "t": "Matthew"
+    },
+    {
+        "c": 16,
+        "id": 41,
+        "t": "Mark"
+    },
+    {
+        "c": 24,
+        "id": 42,
+        "t": "Luke"
+    },
+    {
+        "c": 21,
+        "id": 43,
+        "t": "John"
+    },
+    {
+        "c": 28,
+        "id": 44,
+        "t": "Acts"
+    },
+    {
+        "c": 16,
+        "id": 45,
+        "t": "Romans"
+    },
+    {
         "c": 16,
         "id": 46,
         "t": "1 Corinthians"
@@ -1225,29 +1247,24 @@
         "t": "2 Corinthians"
     },
     {
-        "c": 5,
-        "id": 62,
-        "t": "1 John"
+        "c": 6,
+        "id": 48,
+        "t": "Galatians"
     },
     {
-        "c": 1,
-        "id": 63,
-        "t": "2 John"
+        "c": 6,
+        "id": 49,
+        "t": "Ephesians"
     },
     {
-        "c": 1,
-        "id": 64,
-        "t": "3 John"
+        "c": 4,
+        "id": 50,
+        "t": "Philppians"
     },
     {
-        "c": 5,
-        "id": 60,
-        "t": "1 Peter"
-    },
-    {
-        "c": 3,
-        "id": 61,
-        "t": "2 Peter"
+        "c": 4,
+        "id": 51,
+        "t": "Colossians"
     },
     {
         "c": 5,
@@ -1270,24 +1287,14 @@
         "t": "2 Timothy"
     },
     {
-        "c": 28,
-        "id": 44,
-        "t": "Acts"
+        "c": 3,
+        "id": 56,
+        "t": "Titus"
     },
     {
-        "c": 4,
-        "id": 51,
-        "t": "Colossians"
-    },
-    {
-        "c": 6,
-        "id": 49,
-        "t": "Ephesians"
-    },
-    {
-        "c": 6,
-        "id": 48,
-        "t": "Galatians"
+        "c": 1,
+        "id": 57,
+        "t": "Philemon"
     },
     {
         "c": 13,
@@ -1300,9 +1307,29 @@
         "t": "James"
     },
     {
-        "c": 21,
-        "id": 43,
-        "t": "John"
+        "c": 5,
+        "id": 60,
+        "t": "1 Peter"
+    },
+    {
+        "c": 3,
+        "id": 61,
+        "t": "2 Peter"
+    },
+    {
+        "c": 5,
+        "id": 62,
+        "t": "1 John"
+    },
+    {
+        "c": 1,
+        "id": 63,
+        "t": "2 John"
+    },
+    {
+        "c": 1,
+        "id": 64,
+        "t": "3 John"
     },
     {
         "c": 1,
@@ -1310,47 +1337,13 @@
         "t": "Jude"
     },
     {
-        "c": 24,
-        "id": 42,
-        "t": "Luke"
-    },
-    {
-        "c": 16,
-        "id": 41,
-        "t": "Mark"
-    },
-    {
-        "c": 28,
-        "id": 40,
-        "t": "Matthew"
-    },
-    {
-        "c": 1,
-        "id": 57,
-        "t": "Philemon"
-    },
-    {
-        "c": 4,
-        "id": 50,
-        "t": "Philppians"
-    },
-    {
         "c": 22,
         "id": 66,
         "t": "Revelation"
-    },
-    {
-        "c": 16,
-        "id": 45,
-        "t": "Romans"
-    },
-    {
-        "c": 3,
-        "id": 56,
-        "t": "Titus"
     }
-];
+]
 ```
+---
 <br>
 
 ##### 7. Json List of Alphabetically Sorted Old Testament Books:{#jloasotb}
@@ -1553,7 +1546,146 @@
     }
 ];
 ```
-
+##### Alphabetically Sorted New Testament:
+```json
+[
+    {
+        "c": 16,
+        "id": 46,
+        "t": "1 Corinthians"
+    },
+    {
+        "c": 13,
+        "id": 47,
+        "t": "2 Corinthians"
+    },
+    {
+        "c": 5,
+        "id": 62,
+        "t": "1 John"
+    },
+    {
+        "c": 1,
+        "id": 63,
+        "t": "2 John"
+    },
+    {
+        "c": 1,
+        "id": 64,
+        "t": "3 John"
+    },
+    {
+        "c": 5,
+        "id": 60,
+        "t": "1 Peter"
+    },
+    {
+        "c": 3,
+        "id": 61,
+        "t": "2 Peter"
+    },
+    {
+        "c": 5,
+        "id": 52,
+        "t": "1 Thessalonians"
+    },
+    {
+        "c": 3,
+        "id": 53,
+        "t": "2 Thessalonians"
+    },
+    {
+        "c": 6,
+        "id": 54,
+        "t": "1 Timothy"
+    },
+    {
+        "c": 4,
+        "id": 55,
+        "t": "2 Timothy"
+    },
+    {
+        "c": 28,
+        "id": 44,
+        "t": "Acts"
+    },
+    {
+        "c": 4,
+        "id": 51,
+        "t": "Colossians"
+    },
+    {
+        "c": 6,
+        "id": 49,
+        "t": "Ephesians"
+    },
+    {
+        "c": 6,
+        "id": 48,
+        "t": "Galatians"
+    },
+    {
+        "c": 13,
+        "id": 58,
+        "t": "Hebrews"
+    },
+    {
+        "c": 5,
+        "id": 59,
+        "t": "James"
+    },
+    {
+        "c": 21,
+        "id": 43,
+        "t": "John"
+    },
+    {
+        "c": 1,
+        "id": 65,
+        "t": "Jude"
+    },
+    {
+        "c": 24,
+        "id": 42,
+        "t": "Luke"
+    },
+    {
+        "c": 16,
+        "id": 41,
+        "t": "Mark"
+    },
+    {
+        "c": 28,
+        "id": 40,
+        "t": "Matthew"
+    },
+    {
+        "c": 1,
+        "id": 57,
+        "t": "Philemon"
+    },
+    {
+        "c": 4,
+        "id": 50,
+        "t": "Philppians"
+    },
+    {
+        "c": 22,
+        "id": 66,
+        "t": "Revelation"
+    },
+    {
+        "c": 16,
+        "id": 45,
+        "t": "Romans"
+    },
+    {
+        "c": 3,
+        "id": 56,
+        "t": "Titus"
+    }
+];
+```
 ---
 
 These different bible book lists are provided to help you with your own computerized bible project.
