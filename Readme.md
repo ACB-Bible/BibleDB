@@ -44,9 +44,24 @@ The DATA folder contains all the Bible verse data in the BibleDB project.
     * ###### Json Folder
         * The Json folder contains Json minified versions of all the files located in the Jsonc folder.
 
+            1. [24-New Testament Books](/DATA/ABV/Json/24-NewTestamentBooks.json)
+                * A Jsonc file listing the 24 New Testament books in the Jewish Publication Society's Tanakh 1917 OT(JPS).
+
+            2. [27-New Testament Books](/DATA/ABV/Json/27-NewTestamentBooks.json)
+                * A Jsonc file listing the 24 New Testament books in the Tyndale Bible(TYN) and the Weymouth New Testament(WEY).
+
+            3. [Books](/DATA/ABV/Json/Books.json)
+                * A Jsonc file listing all the books in most Public Domain versions of the Bible.
+
+            4. [Catholic Books](/DATA/ABV/Json/CatholicBooks.json)
+                * A Jsonc file listing the 73 books in the Catholic Public Domain Bible version.
+
+            5. [Versions](/DATA/ABV/Json/Versions.json)
+                * A Jsonc file listing all the Bible versions in the BibleDB project. 
+
     * ###### Jsonc Folder
 
-        * Jsonc files are Json files that contain comments.
+        * Jsonc files are Json files that contain comments. The Jsonc folder contains Jsonc versions of all the Bible books and versions of the Bibles in the BibleDB project.
 
             1. [24-New Testament Books](/DATA/ABV/Jsonc/24-NewTestamentBooks.jsonc)
                 * A Jsonc file listing the 24 New Testament books in the Jewish Publication Society's Tanakh 1917 OT(JPS).
