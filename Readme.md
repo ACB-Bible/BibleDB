@@ -7,7 +7,6 @@
 * The "New Christian Bible" is a more complex online Bible project, with more features that uses the data from the "BibleDB" Project.
 * All the data and source code for each of these projects is in the public domain and free of copyrights, therefore it's free for you to use in your own ministry or Bible project. If you use or alter any of this data or source code, please change the name of your project so people don't get confused.
 
----
 1. [ACB Project](https://github.com/ACB-Bible/AmericanComputerizedBible)
 2. [NCB Project](https://github.com/ACB-Bible/NCB)
 3. [Bible Code Project Documentation](https://github.com/ACB-Bible/DOC) - Complete documentation for all projects.
