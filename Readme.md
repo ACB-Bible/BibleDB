@@ -38,7 +38,8 @@ The DATA folder contains all the Bible verse data in the BibleDB project.
     The ABV folder contains version and book lists for all of the Bible versions included in the BibleDB project
     <br>
     * [Bible Books List](/DATA/ABV/BibleBookLists.md)
-    A complete markdown list of all the books in most public domain versions of the bible.
+    
+        * A complete markdown list of all the books in most public domain versions of the bible.
 
     * ###### Json Folder
         * The Json folder contains Json minified versions of all the files located in the Jsonc folder.
