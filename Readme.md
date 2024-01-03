@@ -47,7 +47,6 @@ The DATA folder contains all the Bible verse data in the BibleDB project.
     * ###### Jsonc Folder
 
         * Jsonc files are Json files that contain comments.
-    <br>
 
         * [1. 24-New Testament Books](/DATA/ABV/Jsonc/24-NewTestamentBooks.jsonc)
 
@@ -66,7 +65,7 @@ The DATA folder contains all the Bible verse data in the BibleDB project.
             * A Jsonc file listing the 73 books in the Catholic Public Domain Bible version.
 
         * [Versions](/DATA/ABV/Jsonc/Versions.jsonc)
-        
+
             * A Jsonc file listing all the Bible versions in the BibleDB project.    
 
 ---
