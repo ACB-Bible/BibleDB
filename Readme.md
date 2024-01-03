@@ -1,7 +1,7 @@
 <h3 align="center">BibleDB Project</h3>
 
 ---
-
+#### Read Me
 * The "BibleDB" project is part of the "Bible Code" project. It's a database project that stores various Bible versions in various data formats.
 * The "American Computerized Bible" Project is an online bible project that offers various versions of the Bible that uses data from the "BibleDB" Project.
 * The "New Christian Bible" is a more complex online Bible project, with more features that uses the data from the "BibleDB" Project.
@@ -29,12 +29,13 @@ The DATA folder contains all the Bible verse data in the BibleDB project.
 
 
 
-* ##### 1-Misc Folder
-    * ##### Unprocessed Folder
-        The Unprocessed folder contains files that have not been processed on yet.
+##### 1-Misc Folder
+
+* ##### Unprocessed Folder
+
+    The Unprocessed folder contains files that have not been processed on yet.
 
 * ##### ABV Folder
-
     The ABV folder contains version and book lists for all of the Bible versions included in the BibleDB project
     <br>
     * [Bible Books List](/DATA/ABV/BibleBookLists.md)
@@ -80,6 +81,8 @@ The DATA folder contains all the Bible verse data in the BibleDB project.
 
 ---
 <br>
+
+[Back To Top](#read-me)
 
 <h6 align="center" title="God's Word Is Not For Sale">BibleDB Project - No Copyright © It's Free - Inspired by God!</h3>
 <h6 align="center">Good luck with your efforts!</h6>
