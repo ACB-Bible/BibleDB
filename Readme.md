@@ -4,7 +4,6 @@
 
 * The "BibleDB" project is part of the "Bible Code" Project. It's a database project that stores various Bible versions in various data formats. 
 <br>
-
 * The "American Computerized Bible" Project is an online bible project that offers various versions of the Bible that uses data from the "BibleDB" Project.
 <br>
 * The "New Christian Bible" is a more complex online Bible project, with more features that uses the data from the "BibleDB" Project.
