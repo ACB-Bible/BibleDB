@@ -26,14 +26,24 @@
 
 The DATA folder contains all the Bible verse data in the BibleDB project.
 
-
-
+1. BibleDB.db 
+    * An SQLite3 database that is the master database file for the Bibledb project. All the other data files are derived from the BibleDB.db database, including the .db, .csv, .js, .json, .jsonc. The plain text .txt files are machine readable files of the Bible versions that were used to load the BibleDB.db database
 
 ##### 1-Misc Folder
 
+1. [Template]()
+    * An SQLite3 database file that is the template for the database file in each Bible version folder.
+
+2. [Work Books](/DATA/1-Misc/WorkBooks.js)
+    * A file that contains Javascript arrays for each version of the Bible of the books in each version. These books arrays are only used in the BibleDB project with the Javascript programs in the JS folder, which is why they are named WorkBooks.js.
+
+2. [Work Versions](/DATA/1-Misc/WorkVersions.json)
+    * A file that contains a Json array for each version of the Bible. This file is only used in the BibleDB project with the Javascript programs in the JS folder, which is why they are named WorkVersions.json.
+
 * ##### Unprocessed Folder
 
-    The Unprocessed folder contains files that have not been processed on yet.
+
+    The Unprocessed folder is a place to store files that have not been processed on yet.
 
 * ##### ABV Folder
     The ABV folder contains version and book lists for all of the Bible versions included in the BibleDB project

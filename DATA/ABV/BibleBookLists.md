@@ -2,26 +2,41 @@
 <h3 align="center">List of Books in the BibleDB Project</h3>
 
 ---
-##### Markdown Contents:
-###### Sorted Biblically
-* [1. Markdown List of All Biblically Sorted Books](#markdown-list-of-all-biblically-sorted-books)
-* [2. Markdown List of Biblically Sorted Old Testament Books](#markdown-list-of-biblically-sorted-old-testament-books)
-* [3. Markdown List of Biblically Sorted New Testament Books](#markdown-list-of-biblically-sorted-new-testament-books)
-###### Sorted Alphabetically
-<br>
+* ##### Markdown Contents:
+    * ###### Sorted Biblically
+        1. [Markdown List of All Biblically Sorted Books](#markdown-list-of-all-biblically-sorted-books)
 
-##### Json Contents:
-1. [BibleDB to Json Legend](#bibledb-to-json-legend)
-###### Sorted Biblically
+        1. [Markdown List of Biblically Sorted Old Testament Books](#markdown-list-of-biblically-sorted-old-testament-books)
 
-1. [Json List of All Biblically Sorted Books](#jloabsb)
-* [3. Json List of Biblically Sorted New Testament Books](#jlobsntb)
-* [4. Json List of Biblically Sorted Old Testament Books](#jlobsotb)
+        3. [Markdown List of Biblically Sorted New Testament Books](#markdown-list-of-biblically-sorted-new-testament-books)
 
-###### Sorted Alphabetically
-* [5. Json List of All Alphabetically Sorted Books](#asjbl)
-* [6. Json List of Alphabetically Sorted New Testament Books](#jloasntb)
-* [7. Json List of Alphabetically Sorted Old Testament Books](#jloasotb)
+    * ###### Sorted Alphabetically
+        1. [Markdown List of All Alphabetically Sorted Books](#markdown-list-of-all-alphabetically-sorted-books)
+
+        1. [Markdown List of Alphabetically Sorted Old Testament Books](#markdown-list-of-alphabetically-sorted-old-testament-books)
+
+        3. [Markdown List of Alphabetically Sorted New Testament Books](#markdown-list-of-alphabetically-sorted-new-testament-books)
+
+* ##### Json Contents:
+
+    * [BibleDB to Json Legend](#bibledb-to-json-legend)
+
+    * ###### Sorted Biblically
+
+        1. [Json List of All Biblically Sorted Books](#json-list-of-all-biblically-sorted-books)
+
+        2. [Json List of Biblically Sorted New Testament Books](#json-list-of-biblically-sorted-new-testament-books)
+
+        3. [Json List of Biblically Sorted Old Testament Books](#json-list-of-biblically-sorted-old-testament-books)
+
+    * ###### Sorted Alphabetically
+
+        1. [Json List of All Alphabetically Sorted Books](#json-list-of-all-alphabetically-sorted-books)
+
+        2. [Json List of Alphabetically Sorted New Testament Books](#json-list-of-alphabetically-sorted-new-testament-books)
+
+        3. [Json List of Alphabetically Sorted Old Testament Books](#json-list-of-alphabetically-sorted-old-testament-books)
+
 ---
 
 <br>
@@ -145,6 +160,7 @@
 <br>
 
 ##### Markdown List of Biblically Sorted New Testament Books
+
 |ID  |Book		     |Chapters|Verses|
 | :- | :--           | --:    | ----:|
 |  40|Matthew		 |      28|  1071|
@@ -175,6 +191,158 @@
 |  65|Jude		     |       1|    25|
 |  66|Revelation	 |      22|   404|
 
+<br>
+
+###### Markdown List of All Alphabetically Sorted Books
+|ID  |Book		     |Chapters|Verses|
+| :- | :--           | --:    |-----:|
+|  13|1 Chronicles	 |      29|   942|
+|  14|2 Chronicles	 |      36|   822|
+|  46|1 Corinthians	 |      16|   437|
+|  47|2 Corinthians	 |      13|   257|
+|  62|1 John		 |       5|   105|
+|  63|2 John		 |       1|    13|
+|  64|3 John		 |       1|    14|
+|  11|1 Kings		 |      22|   816|
+|  12|2 Kings		 |      25|   719|
+|  60|1 Peter		 |       5|   105|
+|  61|2 Peter		 |       3|    61|
+|   9|1 Samuel	     |      31|   810|
+|  10|2 Samuel	     |      24|   695|
+|  52|1 Thessalonians|       5|    89|
+|  53|2 Thessalonians|       3|    47|
+|  54|1 Timothy	     |       6|   113|
+|  55|2 Timothy	     |       4|    83|
+|  44|Acts		     |      28|  1007|
+|  30|Amos		     |       9|   146|
+|  51|Colossians	 |       4|    95|
+|  27|Daniel		 |      12|   357|
+|   5|Deuteronomy	 |      34|   959|
+|  21|Ecclesiastes	 |      12|   222|
+|  49|Ephesians	     |       6|   155|
+|  17|Esther		 |      10|   167|
+|   2|Exodus	     |      40|  1213|
+|  26|Ezekiel		 |      48|  1273|
+|  15|Ezra		     |      10|   280|
+|  48|Galatians	     |       6|   149|
+|   1|Genesis	     |      50|  1533|
+|  35|Habakkuk	     |       3|    53|
+|  37|Haggai		 |       2|   211|
+|  58|Hebrews		 |      13|   303|
+|  28|Hosea		     |      14|   197|
+|  23|Isaiah		 |      66|  1292|
+|  59|James		     |       5|   108|
+|  24|Jeremiah	     |      52|  1364|
+|  18|Job		     |      42|  1070|
+|  29|Joel		     |       3|    73|
+|  43|John		     |      21|   879|
+|  32|Jonah		     |       4|    48|
+|   6|Joshua		 |      24|   658|
+|  65|Jude		     |       1|    25|
+|   7|Judges		 |      21|   618|
+|  25|Lamentations	 |       5|   154|
+|   3|Leviticus	     |      27|   859|
+|  42|Luke		     |      24|  1151|
+|  39|Malachi		 |       4|  1071|
+|  41|Mark		     |      16|   678|
+|  40|Matthew		 |      28|  1071|
+|  33|Micah		     |       7|   105|
+|  34|Nahum		     |       3|    47|
+|  16|Nehemiah	     |      13|   406|
+|   4|Numbers	     |      36|  1288|
+|  31|Obadiah		 |       1|    21|
+|  57|Philemon	     |       1|    25|
+|  50|Philippians	 |       4|   104|
+|  20|Proverbs	     |      31|   915|
+|  19|Psalms		 |     150|  2461|
+|  66|Revelation	 |      22|   404|
+|  45|Romans		 |      16|   433|
+|   8|Ruth		     |       4|    85|
+|  22|Song of Solomon|       8|   117|
+|  56|Titus		     |       3|    46|
+|  38|Zechariah	     |      14|    55|
+|  36|Zephaniah	     |       3|    38|
+
+<br>
+
+###### Markdown List of Alphabetically Sorted Old Testament Books
+
+|ID  |Book		     |Chapters|Verses|
+| :- | :--           | --:    |-----:|
+|  13|1 Chronicles	 |      29|   942|
+|  14|2 Chronicles	 |      36|   822|
+|  11|1 Kings		 |      22|   816|
+|  12|2 Kings		 |      25|   719|
+|   9|1 Samuel	     |      31|   810|
+|  10|2 Samuel	     |      24|   695|
+|  30|Amos		     |       9|   146|
+|  27|Daniel		 |      12|   357|
+|   5|Deuteronomy	 |      34|   959|
+|  21|Ecclesiastes	 |      12|   222|
+|  17|Esther		 |      10|   167|
+|   2|Exodus	     |      40|  1213|
+|  26|Ezekiel		 |      48|  1273|
+|  15|Ezra		     |      10|   280|
+|   1|Genesis	     |      50|  1533|
+|  35|Habakkuk	     |       3|    53|
+|  37|Haggai		 |       2|   211|
+|  28|Hosea		     |      14|   197|
+|  23|Isaiah		 |      66|  1292|
+|  24|Jeremiah	     |      52|  1364|
+|  18|Job		     |      42|  1070|
+|  29|Joel		     |       3|    73|
+|  32|Jonah		     |       4|    48|
+|   6|Joshua		 |      24|   658|
+|   7|Judges		 |      21|   618|
+|  25|Lamentations	 |       5|   154|
+|   3|Leviticus	     |      27|   859|
+|  39|Malachi		 |       4|  1071|
+|  33|Micah		     |       7|   105|
+|  34|Nahum		     |       3|    47|
+|  16|Nehemiah	     |      13|   406|
+|   4|Numbers	     |      36|  1288|
+|  31|Obadiah		 |       1|    21|
+|  20|Proverbs	     |      31|   915|
+|  19|Psalms		 |     150|  2461|
+|   8|Ruth		     |       4|    85|
+|  22|Song of Solomon|       8|   117|
+|  38|Zechariah	     |      14|    55|
+|  36|Zephaniah	     |       3|    38|
+
+<br>
+
+###### Markdown List of Alphabetically Sorted New Testament Books
+
+|ID  |Book		     |Chapters|Verses|
+| :- | :--           | --:    | ----:|
+|  46|1 Corinthians	 |      16|   437|
+|  47|2 Corinthians	 |      13|   257|
+|  62|1 John		 |       5|   105|
+|  63|2 John		 |       1|    13|
+|  64|3 John		 |       1|    14|
+|  60|1 Peter		 |       5|   105|
+|  61|2 Peter		 |       3|    61|
+|  52|1 Thessalonians|       5|    89|
+|  53|2 Thessalonians|       3|    47|
+|  54|1 Timothy	     |       6|   113|
+|  55|2 Timothy	     |       4|    83|
+|  44|Acts		     |      28|  1007|
+|  51|Colossians	 |       4|    95|
+|  49|Ephesians	     |       6|   155|
+|  48|Galatians	     |       6|   149|
+|  58|Hebrews		 |      13|   303|
+|  59|James		     |       5|   108|
+|  43|John		     |      21|   879|
+|  65|Jude		     |       1|    25|
+|  42|Luke		     |      24|  1151|
+|  40|Matthew		 |      28|  1071|
+|  41|Mark		     |      16|   678|
+|  57|Philemon	     |       1|    25|
+|  50|Philippians	 |       4|   104|
+|  66|Revelation	 |      22|   404|
+|  45|Romans		 |      16|   433|
+|  56|Titus		     |       3|    46|
+
 ---
 
 <br>
@@ -191,7 +359,6 @@ This legend maps the SQLite3 BibleDB.db ABibleBooks Table Field Names to Json Fi
 |Title| t| Title of each book|
 
 ---
-
 
 ###### Json List of All Biblically Sorted Books
 ```json
@@ -531,7 +698,7 @@ This legend maps the SQLite3 BibleDB.db ABibleBooks Table Field Names to Json Fi
 
 <br>
 
-###### 3. Json List of Biblically Sorted New Testament Books:{#jlobsntb}
+###### Json List of Biblically Sorted New Testament Books
 ```json
 [
     {
@@ -674,7 +841,7 @@ This legend maps the SQLite3 BibleDB.db ABibleBooks Table Field Names to Json Fi
 
 <br>
 
-###### 4. Json List of Biblically Sorted Old Testament Books:{#jlobsotb}
+###### Json List of Biblically Sorted Old Testament Books
 ```json
 [
     {
@@ -876,7 +1043,7 @@ This legend maps the SQLite3 BibleDB.db ABibleBooks Table Field Names to Json Fi
 ```
 <br>
 
-###### 5. Json List of All Alphabetically Sorted Books:{#asjbl}
+###### Json List of All Alphabetically Sorted Books
 ```json
 [
     {
@@ -1203,7 +1370,7 @@ This legend maps the SQLite3 BibleDB.db ABibleBooks Table Field Names to Json Fi
 ```
 <br>
 
-##### 6. Json List of Alphabetically Sorted New Testament Books:{#jloasntb}
+##### Json List of Alphabetically Sorted New Testament Books
 ```json
 [
     {
@@ -1346,7 +1513,7 @@ This legend maps the SQLite3 BibleDB.db ABibleBooks Table Field Names to Json Fi
 ---
 <br>
 
-##### 7. Json List of Alphabetically Sorted Old Testament Books:{#jloasotb}
+##### Json List of Alphabetically Sorted Old Testament Books
 ```json
 [
     {
@@ -1546,7 +1713,7 @@ This legend maps the SQLite3 BibleDB.db ABibleBooks Table Field Names to Json Fi
     }
 ];
 ```
-##### Alphabetically Sorted New Testament:
+##### Alphabetically Sorted New Testament
 ```json
 [
     {
