@@ -1,18 +1,23 @@
 <h3 align="center">BibleDB Project</h3>
 
 ---
-#### Read Me
-* The "BibleDB" project is part of the "Bible Code" project. It's a database project that stores various Bible versions in various data formats.
-* The "American Computerized Bible" Project is an online bible project that offers various versions of the Bible that uses data from the "BibleDB" Project.
-* The "New Christian Bible" is a more complex online Bible project, with more features that uses the data from the "BibleDB" Project.
-* All the data and source code for each of these projects is in the public domain and free of copyrights, therefore it's free for you to use in your own ministry or Bible project. If you use or alter any of this data or source code, please change the name of your project so people don't get confused.
+
+The "BibleDB" project is part of the "Bible Code" Project which is a collection of GitHub repositories containing source code and data that can be used to develop your own computerized Bible project. The "BibleDB" project is the foundation of the "Bible Code" project, it contains all the data files used by the other projects being developed. All the data and source code for each of these projects is in the public domain and free of copyrights, therefore it's free for you to use in your own ministry or Bible project. If you use or alter any of this data or source code, please change the name of your project so people don't get confused.
 
 ---
-#### Active Projects
 
-1. [American Computerized Bible Project](https://github.com/ACB-Bible/AmericanComputerizedBible) - Source code for an online Bible.
-2. [New Christian Bible Project](https://github.com/ACB-Bible/NCB)  - Source code for an online Bible.
-3. [Bible Code Project Documentation](https://github.com/ACB-Bible/DOC) - Complete documentation for all projects.
+#### Other Active Bible Code Repositories
+
+The "Bible Code" GitHub repositories that are actively being developed.
+
+1. [American Computerized Bible](https://github.com/ACB-Bible/AmericanComputerizedBible) - The "American Computerized Bible" is a project with complete CSS, HTML, Javascript source code, and Json file  examples that use data from the "BibleDB" project for developing an online Bible.
+2. [New Christian Bible Project](https://github.com/ACB-Bible/NCB) - The "New Christian Bible" is a project with complete CSS, HTML, Javascript source code, and Json file  examples that use data from the "BibleDB" project for developing an online Bible.
+3. [Bible Code Documentation](https://github.com/ACB-Bible/DOC) - Complete documentation for all "Bible Code" projects.
+
+Operational webpages can be viewed here:
+1.  [ACB Webpage](https://acbible.com)
+
+[Back to Top](#top)
 
 ---
 
