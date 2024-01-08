@@ -1,5 +1,5 @@
 //** Transfer-Fix-Colon-in-min-Json.js */
-//* This app repairs the improper punctuation in a Json a file after it has been minimized! */
+//* This app repairs the improper punctuation in a Json a file after it has been minimized by the MinifyAll extension in VSCode! */
 const fs = require('fs');
 var workVersions = [];
 
@@ -58,9 +58,9 @@ const alph = [
     { "id": "&" },
 ];
 
-var versionidx = 18;
+var versionidx = 15;
 var path = `./DATA/1-Misc/`;
-var vrs = fs.readFileSync(`${path}WorkVersions.json`, 'utf8');
+var vrs = fs.readFileSync(`${path}WorkVersions.jsonc`, 'utf8');
 workVersions = JSON.parse(vrs);
 var vrabr = `${workVersions[versionidx].ar}`;
 var path = `./DATA/`
@@ -76,7 +76,7 @@ function verseReplace() {
         verses = verses.replaceAll(`!\\"${alph[alp].id}`, `!\\" ${alph[alp].id}`);
         verses = verses.replaceAll(`?\\"${alph[alp].id}`, `?\\" ${alph[alp].id}`);
         verses = verses.replaceAll(`:\\"${alph[alp].id}`, `:\\" ${alph[alp].id}`);
-        verses = verses.replaceAll(`, \\" ${alph[alp].id}`, `, \\"${alph[alp].id}`);
+        verses = verses.replaceAll(`,${alph[alp].id}`, `, ${alph[alp].id}`);
     };
     verses = verses.replaceAll(` \\"a`, `\\" a`);
     verses = verses.replaceAll(`\\"a`, `\\" a`);
