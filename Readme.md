@@ -1,10 +1,16 @@
+<a id="top"></a>
 <h3 align="center">BibleDB Project</h3>
 
 ---
 
-The "BibleDB" project is part of the "Bible Code" Project which is a collection of GitHub repositories containing source code and data that can be used to develop your own computerized Bible project. The "BibleDB" project is the foundation of the "Bible Code" project, it contains all the data files used by the other projects being developed. All the data and source code for each of these projects is in the public domain and free of copyrights, therefore it's free for you to use in your own ministry or Bible project. If you use or alter any of this data or source code, please change the name of your project so people don't get confused.
+The BibleDB project is part of the Bible Code Project which is a collection of GitHub repositories containing source code and data that can be used to develop your own computerized Bible project. The BibleDB project is the foundation of the Bible Code Project, it contains all the data files used by the other projects being developed. All the data and source code for each of these projects is in the public domain and free of copyrights, therefore it's free for you to use in your own ministry or Bible project. If you use or alter any of this data or source code, please change the name of your project so people don't get confused.
+
+
+[American Computerized Bible Website](https://acbible.com) - This is the live operational website for the American Computerized Bible Project which uses Json files generated from the BibleDB.db database.
 
 ---
+
+<br>
 
 #### Other Active Bible Code Repositories
 
@@ -12,22 +18,24 @@ The "Bible Code" GitHub repositories that are actively being developed.
 
 1. [American Computerized Bible](https://github.com/ACB-Bible/AmericanComputerizedBible) - The "American Computerized Bible" is a project with complete CSS, HTML, Javascript source code, and Json file  examples that use data from the "BibleDB" project for developing an online Bible.
 2. [New Christian Bible Project](https://github.com/ACB-Bible/NCB) - The "New Christian Bible" is a project with complete CSS, HTML, Javascript source code, and Json file  examples that use data from the "BibleDB" project for developing an online Bible.
-3. [Bible Code Documentation](https://github.com/ACB-Bible/DOC) - Complete documentation for all "Bible Code" projects.
-
-Operational webpages can be viewed here:
-1.  [ACB Webpage](https://acbible.com)
 
 [Back to Top](#top)
 
 ---
 
+<br>
+
 #### Table of Contents
 
 1. [DATA Folder](#data-folder)
     
+[Back To Top](#read-me)
+
 ---
 
-##### DATA Folder
+<br>
+
+#### DATA Folder
 
 The DATA folder contains all the Bible verse data in the BibleDB project.
 
@@ -48,7 +56,7 @@ The DATA folder contains all the Bible verse data in the BibleDB project.
 * ##### Unprocessed Folder
 
 
-    The Unprocessed folder is a place to store files that have not been processed on yet.
+    The Unprocessed folder is a place to store files that have not yet been processed and added to the BibleDB.db database file.
 
 * ##### ABV Folder
     The ABV folder contains version and book lists for all of the Bible versions included in the BibleDB project
@@ -94,10 +102,24 @@ The DATA folder contains all the Bible verse data in the BibleDB project.
             5. [Versions](/DATA/ABV/Jsonc/Versions.jsonc)
                 * A Jsonc file listing all the Bible versions in the BibleDB project.    
 
----
-<br>
-
 [Back To Top](#read-me)
 
-<h6 align="center" title="God's Word Is Not For Sale">BibleDB Project - No Copyright © It's Free - Inspired by God!</h3>
-<h6 align="center">Good luck with your efforts!</h6>
+---
+
+<br>
+   
+#### The Bible Code Project
+
+[Bible Code Project Documentation for Developers](https://github.com/ACB-Bible/Bible-Code/)
+The "Bible Code Project" is a collection of GitHub repositories containing source code and data that can be used to develop your own computerized Bible project. If you to use any of the source code or data files in your own ministry or Bible project, all of the data and source code for each of these projects is in the public domain and free of copyrights, therefore it's free for you to use.
+
+[Back to Top](#top)
+
+---
+
+<br><br>
+<p align="center">
+    <p align="center">
+    <em>God loves you, Jesus loves you, I love you, and this is God's free gift to you .....</em>
+</p>    
+</p>
