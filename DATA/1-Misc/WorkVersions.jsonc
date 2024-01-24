@@ -3,120 +3,120 @@
         "ar": "AKJ",
         "id": 23,
         "idx": 0,
-        "vn": "American King James Version(AKJ)"
+        "vn": "American King James Version"
     },
     {
         "ar": "ASV",
         "id": 2,
         "idx": 1,
-        "vn": "American Standard Version(ASV)"
+        "vn": "American Standard Version"
     },
     {
         "ar": "BSB",
         "id": 16,
         "idx": 2,
-        "vn": "Berean Standard Bible(BSB)"
+        "vn": "Berean Standard Bible"
     },
     {
         "ar": "BBE",
         "id": 3,
         "idx": 3,
-        "vn": "Bible in Basic English(BBE)"
+        "vn": "Bible in Basic English"
     },
     {
         "ar": "BBB",
         "id": 20,
         "idx": 4,
-        "vn": "Bishop's-Bible(BBB)"
+        "vn": "Bishop's-Bible"
     },
     {
         "ar": "CPD",
         "id": 25,
         "idx": 5,
-        "vn": "Catholic Public Domain(CPD)"
+        "vn": "Catholic Public Domain"
     },
     {
         "ar": "CBV",
         "id": 21,
         "idx": 6,
-        "vn": "Coverdale Bible(CBV)"
+        "vn": "Coverdale Bible"
     },
     {
         "ar": "DBY",
         "id": 4,
         "idx": 7,
-        "vn": "Darby English Bible(DBY)"
+        "vn": "Darby English Bible"
     },
     {
         "ar": "DRB",
         "id": 15,
         "idx": 8,
-        "vn": "Douay-Rheims Bible(DRB)"
+        "vn": "Douay-Rheims Bible"
     },
     {
         "ar": "ERV",
         "id": 24,
         "idx": 9,
-        "vn": "English Revised Version(ERV)"
+        "vn": "English Revised Version"
     },
     {
         "ar": "GNV",
         "id": 22,
         "idx": 10,
-        "vn": "Geneva Bible(GNV)"
+        "vn": "Geneva Bible"
     },
     {
         "ar": "JPS",
         "id": 26,
         "idx": 11,
-        "vn": "Jewish Publication Society's Tanakh 1917 OT(JPS))"
+        "vn": "Jewish Publication Society's Tanakh 1917 OT"
     },
     {
         "ar": "KJV",
         "id": 5,
         "idx": 12,
-        "vn": "King James Version(KJV)"
+        "vn": "King James Version"
     },
     {
         "ar": "NWB",
         "id": 6,
         "idx": 13,
-        "vn": "Noah Webster's Bible(NWB)"
+        "vn": "Noah Webster's Bible"
     },
     {
         "ar": "SLT",
         "id": 18,
         "idx": 14,
-        "vn": "Smith's Literal Translation(SLT)"
+        "vn": "Smith's Literal Translation"
     },
     {
         "ar": "TWF",
         "id": 1,
         "idx": 15,
-        "vn": "Twenty-First Century Version(TWF)"
+        "vn": "Twenty-First Century Version"
     },
     {
         "ar": "TYN",
         "id": 27,
         "idx": 16,
-        "vn": "Tyndale Bible(TYN)"
+        "vn": "Tyndale Bible"
     },
     {
         "ar": "WEB",
         "id": 7,
         "idx": 17,
-        "vn": "World English Bible(WEB)"
+        "vn": "World English Bible"
     },
     {
         "ar": "WEY",
         "id": 28,
         "idx": 18,
-        "vn": "Weymouth New Testament(WEY)"
+        "vn": "Weymouth New Testament"
     },
     {
         "ar": "YLT",
         "id": 8,
         "idx": 19,
-        "vn": "Young's Literal Translation(YLT)"
+        "vn": "Young's Literal Translation"
     }
 ]
