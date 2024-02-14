@@ -1,1 +1,0 @@
-INSERT INTO AJsonVersions (id, ar, vn) SELECT VersionID, Abreviation, VersionName FROM ABibleVersions WHERE Available = 1 ORDER BY VersionName;

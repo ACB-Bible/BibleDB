@@ -1,1 +1,0 @@
-INSERT INTO WEY.Verses SELECT * FROM WEYVerses;

@@ -4,7 +4,7 @@ const fs = require('fs');
 var bookList = require('../../DATA/1-Misc/WorkBooks.js');
 var workVersions = [];
 
-var versionidx = 18;
+var versionidx = 15;
 var path = `./DATA/1-Misc/`;
 var vrs = fs.readFileSync(`${path}WorkVersions.json`, 'utf8');
 workVersions = JSON.parse(vrs);

@@ -1,1 +1,0 @@
-SELECT VerseText FROM CPDVerses; UPDATE CPDVerses Set VerseText =  Replace(VerseText,' "', ' "');

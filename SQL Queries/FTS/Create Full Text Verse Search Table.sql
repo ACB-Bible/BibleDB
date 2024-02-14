@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE KJVquery USING FTS5(bid, cn, jq, vid, vt, vrsn, tokenize=porter);

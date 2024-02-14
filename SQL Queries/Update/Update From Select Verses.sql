@@ -1,1 +1,0 @@
-UPDATE CPDVerses SET ParagraphNumber = (SELECT TWFVerses.ParagraphNumber FROM TWFVerses WHERE CPDVerses.VerseID = TWFVerses.VerseID);

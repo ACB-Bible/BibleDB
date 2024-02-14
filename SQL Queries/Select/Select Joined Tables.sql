@@ -1,1 +1,0 @@
-SELECT AJsonBooks.t, AKJVVerses.ChapterNumber, AKJVVerses.VerseNumber, AKJVVerses.VerseText FROM AKJVVerses JOIN AJsonBooks ON AKJVVerses.BookID = AJsonBooks.id;

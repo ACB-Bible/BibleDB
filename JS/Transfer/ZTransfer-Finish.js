@@ -13,7 +13,7 @@ workVersions = JSON.parse(vrs);
 var vrabr = `${workVersions[versionidx].ar}`;
 var versionName = `${workVersions[versionidx].vn}`;
 versionName = versionName.slice(0, -5);
-var path = `./NCB Production Data/`
+var path = `./Production Data/`
 
 function deleteFiles() {
 

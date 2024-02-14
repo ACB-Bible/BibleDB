@@ -1,0 +1,1 @@
+PRAGMA fts5_tokenizer = porter_snowball;
