@@ -4,6 +4,7 @@
 The BibleDB project is part of the Bible Code Project which is a collection of GitHub repositories containing source code and data that can be used to develop your own computerized Bible project. The BibleDB project is the foundation of the Bible Code Project, it contains all the data files used by the other projects being developed. All the data and source code for each of these projects is in the public domain and free of copyrights, therefore it's free for you to use in your own ministry or Bible project. If you use or alter any of this data or source code, please change the name of your project so people don't get confused.
 
 [American Computerized Bible Website](https://acbible.com) - The live operational website for the American Computerized Bible.
+
 [New Christian Bible Website](https://acb-bible.github.io/NCB/) - The live operational website for the New Christian Bible.
 
 ---
